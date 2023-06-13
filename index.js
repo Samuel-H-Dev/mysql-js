@@ -11,7 +11,7 @@ function (error, results){
     console.log(error); 
     //console.table the results
     console.table(results);
-    // connection.destroy();
+    connection.destroy();
 });
 
 
